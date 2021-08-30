@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  background-color: rgb(213, 226, 225);
+  height: 80rem;
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  background-color: rgb(253, 95, 67);
+  font-size: 2.4rem;
+  height: 5rem;
+  width: 80%;
+  text-align: center;
+  padding: 1.5rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+.content {
+  background-color: white;
+  position: absolute;
+  font-size: 1.6rem;
+  width: 80rem;
+  height: 100%;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  margin-top: 6rem;
+}
+
+.sidebar{
+  height: auto;
+  width: 37rem;
+  font-size: 1.6rem;
+  text-align: left;
+  margin: 1rem ;
+  transform: translate(82rem,5rem);
+  position: sticky;
+  top: 2rem;
+}
+
+a {
+  display:block;
+  background-color: rgb(221, 211, 221);
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+}
+
+a:hover{
+  color: azure;
+}
